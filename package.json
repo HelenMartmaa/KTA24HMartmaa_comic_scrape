@@ -1,7 +1,7 @@
 {
-  "name": "KTA24HMartmaa_comic_scrape",
+  "name": "kta24hmartmaa_comic_scrape",
   "version": "1.0.0",
-  "description": "",
+  "description": "Koomiksi scrape-script",
   "main": "script.js",
   "type": "module",
   "scripts": {
@@ -12,14 +12,11 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/HelenMartmaa/KTA24HMartmaa_comic_scrape.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "#"
-  },
-  "homepage": "https://github.com/KasparsHelenMartmaa/KTA24HMartmaa_comic_scrape#readme",
+  "homepage": "https://github.com/HelenMartmaa/KTA24HMartmaa_comic_scrape#readme",
   "devDependencies": {
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
@@ -36,6 +33,13 @@
     "webpack-dev-server": "^5.2.0"
   },
   "dependencies": {
-    "cheerio": "^1.1.0"
+    "axios": "^1.10.0",
+    "cheerio": "^1.1.0",
+    "node-fetch": "^2.7.0",
+    "puppeteer": "^24.10.1"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/HelenMartmaa/KTA24HMartmaa_comic_scrape/issues"
   }
 }
