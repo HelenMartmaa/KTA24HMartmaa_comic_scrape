@@ -1,0 +1,41 @@
+{
+  "name": "KTA24HMartmaa_comic_scrape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "deploy": "npm run build && surge ./dist juicy-education.surge.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "#"
+  },
+  "homepage": "https://github.com/KasparsHelenMartmaa/KTA24HMartmaa_comic_scrape#readme",
+  "devDependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "purgecss-webpack-plugin": "^7.0.2",
+    "sass": "^1.85.1",
+    "sass-loader": "^16.0.5",
+    "style-loader": "^4.0.0",
+    "surge": "^0.24.6",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.0"
+  }
+}

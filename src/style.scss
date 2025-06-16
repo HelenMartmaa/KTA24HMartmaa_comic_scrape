@@ -1,0 +1,4 @@
+$primary: rgb(30, 139, 63);
+@use "bootstrap/scss/bootstrap" with (
+    $primary: rgb(70, 201, 194)
+);
